@@ -18,7 +18,7 @@ class MyStack {
     size = copied_obj.size;
     top = copied_obj.top;
     stack = new Type[size];
-    for (size_t i = 0; i < top; i++) {
+    for (int i = 0; i < top; i++) {
       stack[i] = copied_obj.stack[i];
     }
   }
