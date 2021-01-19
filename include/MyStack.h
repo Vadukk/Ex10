@@ -2,7 +2,6 @@
 #ifndef INCLUDE_MYSTACK_H_
 #define INCLUDE_MYSTACK_H_
 
-template <class T>
 template <class Type>
 class MyStack {
  private:
