@@ -1,8 +1,8 @@
 // Copyright 2021 Vadukk
 
-#include "../include/MyStack.h"
+#include "MyStack.h"
 
-#include "../include/postfix.h"
+#include "postfix.h"
 
 std::string infix2postfix(std::string infix) {
   return infix;

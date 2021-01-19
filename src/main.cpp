@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-#include "../include/postfix.h"
+#include "postfix.h"
 
 int main() {
   std::string infix = "3 + 8 * 1 / (2 - 1) + 9 * 8 * 9 / 3";
