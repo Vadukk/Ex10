@@ -15,10 +15,10 @@ class MyStack {
     stack = new Type[size];
   }
   MyStack(const MyStack &copied_obj) {
-    size = copied_obj.size;
+    size_t = copied_obj.size;
     top = copied_obj.top;
     stack = new Type[size];
-    for (size_t i = 0; i < top; i++) {
+    for (size_t int i = 0; i < top; i++) {
       stack[i] = copied_obj.stack[i];
     }
   }
