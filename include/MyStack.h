@@ -5,7 +5,7 @@
 template <class Type>
 class MyStack {
  private:
-  int top, size;
+  int top, size, i;
   Type *stack;
 
  public:
@@ -15,10 +15,10 @@ class MyStack {
     stack = new Type[size];
   }
   MyStack(const MyStack &copied_obj) {
-    size_t = copied_obj.size;
+    size = copied_obj.size;
     top = copied_obj.top;
     stack = new Type[size];
-    for (size_t int i = 0; i < top; i++) {
+    for (size i = 0; i < top; i++) {
       stack[i] = copied_obj.stack[i];
     }
   }
